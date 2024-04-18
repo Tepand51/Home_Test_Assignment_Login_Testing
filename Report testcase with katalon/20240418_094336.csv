@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+hasil,Chrome 124.0.0.0,,,18-04-2024 09:43:46,18-04-2024 09:44:01,15.202s,PASSED
+,,,,,,,
+Test Cases/study case,Chrome 124.0.0.0,,,18-04-2024 09:43:46,18-04-2024 09:43:54,7.395s,PASSED
+"data = findTestData(""Data Files/Users"")",Chrome 124.0.0.0,,,18-04-2024 09:43:47,18-04-2024 09:43:48,0.952s,PASSED
+"username = data.getObjectValue(""Username"", 1)",Chrome 124.0.0.0,,,18-04-2024 09:43:48,18-04-2024 09:43:48,0.082s,PASSED
+"password = data.getObjectValue(""Password"", 1)",Chrome 124.0.0.0,,,18-04-2024 09:43:48,18-04-2024 09:43:48,0.004s,PASSED
+comment(username),Chrome 124.0.0.0,,,18-04-2024 09:43:48,18-04-2024 09:43:48,0.218s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,18-04-2024 09:43:48,18-04-2024 09:43:51,2.848s,PASSED
+"navigateToUrl(""https://tepand51.github.io/automation-qa-test-main.io/"")",Chrome 124.0.0.0,,,18-04-2024 09:43:51,18-04-2024 09:43:52,0.404s,PASSED
+login.Login.login(),Chrome 124.0.0.0,,,18-04-2024 09:43:52,18-04-2024 09:43:54,2.231s,PASSED
+,,,,,,,
+Test Cases/study case 2,Chrome 124.0.0.0,,,18-04-2024 09:43:54,18-04-2024 09:43:57,3.679s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,18-04-2024 09:43:54,18-04-2024 09:43:55,1.331s,PASSED
+"navigateToUrl(""https://tepand51.github.io/automation-qa-test-main.io/"")",Chrome 124.0.0.0,,,18-04-2024 09:43:55,18-04-2024 09:43:56,0.316s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_username""), ""user"")",Chrome 124.0.0.0,,,18-04-2024 09:43:56,18-04-2024 09:43:57,0.916s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 124.0.0.0,,,18-04-2024 09:43:57,18-04-2024 09:43:57,0.481s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Login""))",Chrome 124.0.0.0,,,18-04-2024 09:43:57,18-04-2024 09:43:57,0.418s,PASSED
+,,,,,,,
+Test Cases/study case 3,Chrome 124.0.0.0,,,18-04-2024 09:43:57,18-04-2024 09:44:01,3.775s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,18-04-2024 09:43:58,18-04-2024 09:43:59,1.320s,PASSED
+"navigateToUrl(""https://tepand51.github.io/automation-qa-test-main.io/"")",Chrome 124.0.0.0,,,18-04-2024 09:43:59,18-04-2024 09:43:59,0.309s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_username""), """")",Chrome 124.0.0.0,,,18-04-2024 09:43:59,18-04-2024 09:44:00,0.952s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page/input_Password_password""), """")",Chrome 124.0.0.0,,,18-04-2024 09:44:00,18-04-2024 09:44:01,0.466s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Login""))",Chrome 124.0.0.0,,,18-04-2024 09:44:01,18-04-2024 09:44:01,0.460s,PASSED
